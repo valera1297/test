@@ -12,11 +12,15 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("Hello World");
+<<<<<<< HEAD
 <<<<<<< Updated upstream
         primaryStage.setScene(new Scene(root, 300, 275));
 =======
         primaryStage.setScene(new Scene(root, 2000, 275));
 >>>>>>> Stashed changes
+=======
+        primaryStage.setScene(new Scene(root, 200, 275));
+>>>>>>> parent of 47a720d... Revert "200test"
         primaryStage.show();
     }
 
